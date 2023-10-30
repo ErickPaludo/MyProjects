@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Projetos</title>
+    <link rel="stylesheet" href="projetos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0e84b8b0b6.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="fav-ico.ico" type="image/x-icon">
+
+</head>
+<body>
+    
+<div class="border-sup">
+
+   <a href="https://myexperiences.netlify.app" target="_self">
+       <div class="btn_home">
+           <i id="home" class="fa-solid fa-house"></i>
+        <p class="n_home">Home</p>
+       </div>
+   </a>
+   <input id="chk"type="checkbox"  onclick="mode_L()">
+   <label for="chk" class="switch">
+    <span class="slider"></span>
+   </label>
+</div>
+<div class="container">
+        <h1 class="name">Projetos</h1>
+        <input class="bleft" type="button" value="&#10094;" onclick="cleft()">
+        <img id ="imagem" src="img/projeto.jpeg" alt="random">
+        <input class="bright" type="button" value="&#10095;" onclick="cright()">
+        <p class ="contador"></p>
+        <p class="linguagem">Bem-Vindo</p>
+        <p class="pagddc"></p>
+        <p class="git"><i class="fab fa-github"></i></p>
+        <p class="veja"><a href=""></a></p>
+</div>
+
+    <script src="projetos.js"></script>
+    <script src="light.js"></script>
+</body>
+</html>

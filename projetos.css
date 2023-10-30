@@ -1,0 +1,145 @@
+
+body{
+    background-color: rgb(13, 17, 23);
+    overflow-x: hidden;
+}
+.border-sup{
+    position:fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+    background-color: rgb(36, 41, 47);
+    width: auto;
+}
+.container{
+    padding: 10px;
+    background-color:rgb(9, 12, 17);
+    margin: auto ;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 20px 20px rgba(0, 0, 0, 0.021);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.192);
+    text-align: center;
+    align-content: center;
+    margin-top: 125px;
+}
+.veja{
+    margin-top: -50px;
+    cursor: pointer;
+}
+.veja:hover{
+    font-size: 13pt;
+}
+.name{
+    font: bold 45px arial;
+}
+img#imagem{
+    margin:auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.219);
+
+}
+.bleft,
+.bright{
+    color: white;
+    background-color: rgb(9, 12, 17);
+    border: none;
+    position: fixed;
+    height: 200px;
+    width: 50px;
+    font-size: 15pt;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bright{
+    margin-left: 10px ;
+}
+.bleft{
+    margin-left: -70px  
+}
+.linguagem{
+   margin-top: 10px;
+   text-align: center; 
+}
+.contador{
+font-size: 8pt;
+}
+.git{
+    text-decoration: none;
+    margin-top: 10px;
+    font-size:40pt;
+    color: rgb(255, 255, 255);
+}
+#chk{
+    display: none;
+    
+    }
+    .switch{
+        position: absolute;
+        background-color: rgb(39, 38, 38);
+        width: 40px;
+        height: 20px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+        right: 0;
+        margin-right: 15px;
+        margin-top: -10px;
+    }
+    .slider{
+        position: absolute;
+        background-color: rgb(255, 253, 253);
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        transition: all .5s ease-in-out;
+    }
+    #chk:checked ~.switch{
+        background-color: rgb(217, 224, 223);
+    }
+    #chk:checked ~.switch .slider{
+        transform: translateX(20px);
+    }
+.btn_home{
+
+width: 20px;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+padding: 20px;
+position: absolute;
+border-radius: 10px;
+margin-top: -25px;
+
+}
+#home{
+    color: white;
+    font-size:20pt;
+    position: absolute;
+    margin-top: -10px;
+}
+.n_home{
+    margin:flex;
+    position: absolute;
+    text-align: center;
+    margin-top: 55px;
+    color: white;
+    font-size: 10pt;
+}
+.btn_home:hover #home{
+    font-size: 25pt;
+}
+.btn_home:hover .n_home{
+    margin-top: 60px;
+    font-size: 12pt;
+}
