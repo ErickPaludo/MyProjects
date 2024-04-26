@@ -12,7 +12,7 @@ git.addEventListener("click",function(){
         window.open("https://github.com/ErickPaludo", "_blank");
      }
     if(contador === 1){
-       window.open("https://github.com/ErickPaludo/PLD.VANILLA", "_blank");
+       window.open("https://github.com/ErickPaludo/Vanilla-DIST.git", "_blank");
     }
     else if(contador === 2){
         window.open("https://github.com/ErickPaludo/BestFuel-Mobile", "_blank");
